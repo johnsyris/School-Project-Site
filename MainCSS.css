@@ -1,0 +1,125 @@
+/* My Framework's CSS */
+
+body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			height: 100%; 
+			max-height: 100%; 
+			font-family:Sans-serif;
+			line-height: 1.5em;
+		}
+		
+		#header {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100px; 
+			overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+			background: #BCCE98;
+		}
+		
+		#header a{
+			color: black;
+		}
+		
+		#header a:hover{
+			font-size: 34px;
+		}
+		
+		#header a:link {
+			text-decoration: none;
+		}
+		
+		#nav {
+			position: absolute; 
+			top: 100px; 
+			left: 0; 
+			bottom: 0;
+			width: 230px;
+			overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+			background: #DAE9BC; 		
+		}
+		
+		#logo {
+			padding:10px;
+			padding-left: 30px;
+		}
+		
+		main {
+			position: fixed;
+			top: 100px; /* Set this to the height of the header */
+			left: 230px; 
+			right: 0;
+			bottom: 0;
+			overflow: auto; 
+			background: #fff;
+		}
+		
+		#example {
+			border: 1px solid green;
+			border-radius: 15px;
+		}
+		
+		#example_border{
+			border-left: 5px solid silver;
+			background-color: azure;
+			margin-left: 10px;
+			margin-right: 20px;
+		}
+		
+		#html-intro-tagnames{
+			font-size: 26px;
+			background-color: #d9d9d9;
+			padding: 30px;
+		}
+		
+		#css-demo-w3{
+			text-decoration: none;
+			color: black;
+		}
+		
+		#css-demo-w3:hover{
+			color: grey;
+		}
+		
+		#css-demo-w3:hover{
+			text-decoration: underline;
+		}
+		
+		#div-css-syntax{
+			background-color: #66ff99;
+			float: left;
+			
+			border-radius: 40%;
+		}
+		
+		.innertube {
+			margin: 30px; /* Provides padding for the content */
+		}
+		
+		p {
+			color: #555;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul a {
+			color: darkgreen;
+			text-decoration: none;
+		}
+				
+		
+		* html body{
+			padding: 100px 0 0 230px; /* Set the first value to the height of the header and last value to the width of the nav */
+		}
+		
+		* html main{ 
+			height: 100%; 
+			width: 100%; 
+		}
